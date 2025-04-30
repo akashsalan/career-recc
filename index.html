@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Career Recommender</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI-Powered Career Recommender</h1>
+    <p>Choose your preferences and discover the most suitable career path recommended by AI.</p>
+
+    <label for="stream">Select Stream:</label>
+    <select id="stream">
+      <option>Science</option>
+      <option>Commerce</option>
+      <option>Arts</option>
+    </select>
+
+    <label for="subject">Select Best Subject:</label>
+    <select id="subject">
+      <option>Math</option>
+      <option>Biology</option>
+      <option>Computer</option>
+      <option>Physics</option>
+      <option>Chemistry</option>
+      <option>Accounts</option>
+      <option>Economics</option>
+      <option>Business Studies</option>
+      <option>History</option>
+      <option>English</option>
+      <option>Psychology</option>
+      <option>Political Science</option>
+      <option>Sociology</option>
+    </select>
+
+    <label for="interest">Select Interest Area:</label>
+    <select id="interest">
+      <option>Tech</option>
+      <option>Engineering</option>
+      <option>Finance</option>
+      <option>Counseling</option>
+      <option>Social Work</option>
+      <option>Design</option>
+      <option>Health</option>
+      <option>Entrepreneurship</option>
+      <option>Research</option>
+    </select>
+
+    <button onclick="getCareer()">Get Career Recommendation</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
