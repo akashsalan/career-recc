@@ -4,7 +4,7 @@ async function getCareer() {
   const best_subject = document.getElementById("subject").value;
   const interest = document.getElementById("interest").value;
 
-  const response = await fetch("https://your-app-name.up.railway.app/predict", {
+  const response = await fetch("https://web-production-84214.up.railway.app/predict", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ stream, best_subject, interest })
